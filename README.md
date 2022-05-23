@@ -20,9 +20,9 @@ To run the code, simply run main.py using python. The system will start checking
 
 To adjust the hashing algo, please edit gethash.py
 The hasing algo used is:
-- # thehash = sha256(f'{x*y}'.encode()).hexdigest()
+thehash = sha256(f'{x*y}'.encode()).hexdigest()
 
-By changing the # "{x*y}" new hashes will be produced.
+By changing the {x*y} new hashes will be produced.
 Please make sure that the geni_hash in "filecheck.py" is update if the algo is changed.
 The geni_hash is the first hash that is produces for the blockchain and has to be manually entered for now.
 
