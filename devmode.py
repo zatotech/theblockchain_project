@@ -1,7 +1,14 @@
 import os
+import pathlib
+
 
 def remove_files():
-    print("WARNING: Removing haslist.txt")
-    os.remove("hashlist.txt")
+    hashfile = pathlib.Path('hashlist.txt')
+    blockfile = pathlib.Path('blockchain.json')
+    print("WARNING: Removing hashlist.txt")
+    if hashfile.exists():
+        os.remove(hashfile)
+
     print("WARNING: Removing blockchain.json")
-    os.remove("blockchain.json")
+    if blockfile.exists():
+        os.remove("blockchain.json")
