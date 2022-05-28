@@ -5,7 +5,7 @@ This is me trying to build my idea of a blockchain from scratch
 This bit of code will create a file called "hashlist.txt" and start producing hashes based on the preset algo.
 
 The idea here is to use the hashes as part of the trasaction section within the blockchain.
-This way, each hash will represent a single coin on the chain and thus gives some value to the cion based on the PoW concept.
+This way, each hash will represent a single coin on the chain and thus gives some value to the coin based on the PoW concept.
 
 <h3>Getting up and running</h3>
 This code runs on Python3 and requires two libraries.
